@@ -65,6 +65,16 @@ The public interface consists of `V4Method`, `CapitalInputs`, `SnapshotResult`,
 `evaluate_snapshot(...)`, and `compute_daily_z_scores(...)`. The command-line
 interface uses the same functions; it is not a separate implementation.
 
+Run the complete synthetic example through the Python API with:
+
+```bash
+uv run --locked python examples/run_python_api.py
+```
+
+The script loads the documented inputs, constructs `CapitalInputs`, calls
+`evaluate_snapshot(...)`, rejects an invalid or unconverged result, and prints
+the principal estimates and fair-value quantiles as JSON.
+
 ## Reading the result
 
 `summary.json` records input SHA-256 fingerprints, alpha and beta estimates,
