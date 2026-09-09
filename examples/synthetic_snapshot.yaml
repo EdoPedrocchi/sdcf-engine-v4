@@ -1,0 +1,14 @@
+security_id: SYNTHETIC_FIRM
+fiscal_period_end: 2008-12-31
+information_cutoff: 2009-02-10T12:00:00Z
+reference_market_price_per_share: 34.73
+capital:
+  short_term_wacc_annual_decimal: 0.09
+  terminal_wacc_annual_decimal: 0.09
+  perpetual_growth_annual_decimal: 0.03
+  total_debt: 300.0
+  cash_and_short_term_investments: 100.0
+  minority_interest: 10.0
+  preferred_stock: 5.0
+  shares_outstanding: 100.0
+  available_at: 2009-02-10T12:00:00Z

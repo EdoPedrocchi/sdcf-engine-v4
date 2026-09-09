@@ -1,0 +1,22 @@
+method_id: sdcf_engine_candidate_v4_sequential_quarterly_ttm
+alpha_convention: normalized_equation_errors
+alpha_minimum_observations: 20
+alpha_maximum_observations: 66
+alpha_eligibility_threshold: 0.1
+beta_observations: 4
+beta_schedule: available_fiscal_year_end
+revenue_history: complete_available_history
+adf_significance: 0.05
+adf_maximum_lag: 4
+state_likelihood: exact_log_increment_gaussian
+bootstrap_replicates: 9999
+bootstrap_significance: 0.05
+state_origin: filtered_distribution
+forecast_steps: 20
+cash_flow_frequency: quarterly_ttm
+scientific_paths: 50000
+display_paths: 1000
+prefix_paths: [1000, 5000, 10000, 25000, 50000]
+master_seed: 2023
+bootstrap_looks: [100, 250, 500, 1000, 2000, 4000, 7000, 9999]
+bootstrap_resampling_risk: 0.001
